@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="/styles/index.css">
+  </head>
+  <body>
+    <div id="navbar">
+      <h3>News App</h3>
+      <h3>Sign-Up</h3>
+      <h3>
+        <a href="/worldNews.html">World News</a>
+      </h3>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="user-form">
+
+      <!-- Profile Pic, (Id:- user_pic)
+Name, (Id:- user_name)
+Email, (Id:- user_email)
+country, (Id: user_country) >> Dropdown with options "India", "China", "Newzeland", "USA", "UK.  
+** Submit button will have Id:- "submit". -->
+    
+    <form action="">
+
+     <input id="user_pic" placeholder="Profile Pic" type="url">
+     <br>
+     <br>
+     
+     <input id="user_name" placeholder="Name" type="text">
+     <br>
+     <br>
+     
+     <input id="user_email" placeholder="Email" type="email">
+     <br>
+     <br>
+     <select name="" id="user_country">
+      <option  value="India">India</option>
+      <option value="Usa">Usa</option>
+      <option value="China">China</option>
+      <option value="UK">UK</option>
+      <option value="New Zealand">New Zealand</option>
+     </select>
+     <br>
+     <br>
+     <input id="submit" type="submit" value="Submit"> 
+
+
+    </form>
+    </div>
+  </body>
+</html>
+
+<script src="/scripts/index.js"></script>

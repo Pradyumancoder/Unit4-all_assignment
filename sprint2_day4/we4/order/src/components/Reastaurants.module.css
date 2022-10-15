@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    gap: 1rem;
+    min-height: 300px;
+    border:1px solid lightgrey;
+    border-radius: 0.25rem;
+    border-radius:0.25rem;
+    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.footer{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid lightgrey;
+    border-bottom-left-radius:0.25rem;
+    border-bottom-right-radius:0.25rem;
+    height: 2rem;
+    align-items: center;
+}
+.OrderButton{
+  background:lightgreen ;
+  color:olivedrab;
+  height: 100%;
+  display: flex;
+
+}

@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+}
+
+.masaischooltag {
+  text-align: center;
+  color: blue;
+}
+
+.initialstate {
+  background-color: yellow;
+  margin-left: 15rem;
+  padding: 10px;
+}
+
+.heading {
+  text-align: center;
+}

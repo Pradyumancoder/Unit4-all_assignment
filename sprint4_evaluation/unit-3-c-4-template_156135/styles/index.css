@@ -1,0 +1,29 @@
+
+
+#navbar {
+    display: flex;
+    background-color:red;
+    justify-content: space-around;
+    color: white;
+    font-family: sans-serif;
+}
+
+#user-form {
+    margin: auto;
+    
+    height: 210px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+
+#user_country {
+    width: 177px;
+    height: 22px;
+}
+
+#submit {
+    margin-left: 55px;
+}
